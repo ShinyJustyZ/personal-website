@@ -34,10 +34,10 @@ body {
 }
 
 .headingpos {
-    position: absolute;
-    left: 10%;
-    top: 30%;
-    width: 30%;
+    position: relative;
+    margin-left:-10%;
+    margin-top: 15%;
+    width: 40%;
 }
 
 
