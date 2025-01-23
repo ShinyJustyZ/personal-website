@@ -25,16 +25,30 @@ body {
     width: 30%;
 }
 
-.font12 { font-size: 12px; }
-.font14 { font-size: 14px; }
-.font16 { font-size: 16px; }
-.font18 { font-size: 18px; }
-.font20 { font-size: 20px; }
-.font24 { font-size: 24px; }
-.font32 { font-size: 32px; }
-.font36 { font-size: 36px; }
-.font42 { font-size: 42px; }
-.font48 { font-size: 48px; }
-.font64 { font-size: 64px; }
-.font72 { font-size: 72px; }
+.greenbutton {
+    background-color: rgba(0, 255, 144, .2); /* Green */
+    border: 00FF90 solid 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0;
+}
+
+
+
+.font12 { font-size: 0.75rem; }
+.font14 { font-size: 0.875rem; }
+.font16 { font-size: 1rem; }
+.font18 { font-size: 1.125rem; }
+.font20 { font-size: 1.25rem; }
+.font24 { font-size: 1.5rem; }
+.font32 { font-size: 2rem; }
+.font36 { font-size: 2.25rem; }
+.font42 { font-size: 2.625rem; }
+.font48 { font-size: 3rem; }
+.font64 { font-size: 4rem; }
+.font72 { font-size: 4.5rem; }
 
