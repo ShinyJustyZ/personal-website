@@ -2,6 +2,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+.notextdecor {
+    text-decoration: none;
+}
+
 body {
     background-color: #0A0012;
 }
@@ -11,11 +16,21 @@ body {
 }
 
 .greencolor {
-    color: 00FF90;
+    color: #00FF90;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.left10 {
+    position: absolute;
+    left: 10%;
+}
+
+.top30 {
+    position: absolute;
+    top: 30%;
 }
 
 .headingpos {
@@ -25,19 +40,31 @@ body {
     width: 30%;
 }
 
+
 .greenbutton {
-    background-color: rgba(0, 255, 144, .2); /* Green */
-    border: 00FF90 solid 4px;
-    color: white;
-    padding: 15px 32px;
+    background-color: rgba(0, 255, 144, .2);
+    border: #00FF90 solid 4px;
+    color: #FFFFFF;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    box-shadow: 0;
+    font-weight: bold;
+    padding: 0.625rem 1.25rem;
+    border-radius: 10px;
 }
 
-
+.whitebutton {
+    background-color: rgba(255, 255, 255, .2);
+    border: #FFFFFF solid 4px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.625rem 1.25rem;
+    border-radius: 10px;
+}
+img {
+    height: 70vh;
+    width: 70vh;
+    object-fit: cover;
+    }
 
 .font12 { font-size: 0.75rem; }
 .font14 { font-size: 0.875rem; }
